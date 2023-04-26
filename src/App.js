@@ -35,7 +35,7 @@ function App() {
   }
 
   const saveLocalTodos = () => {
-   
+   console.log('hi')
     localStorage.setItem('todos',JSON.stringify(todos))
     
   };
