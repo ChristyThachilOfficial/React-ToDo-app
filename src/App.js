@@ -53,6 +53,7 @@ function App() {
   return (
     <div className="App">
       <header>
+    <p>hello</p>
      <h1>ToDo</h1>
      </header>
      <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus} />
