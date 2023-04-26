@@ -38,7 +38,7 @@ function App() {
   console.log('h');
     localStorage.setItem('todos',JSON.stringify(todos))
     
-  }
+  }<h1>ToDo</h1>
 
   const  getLocalTodos = () =>{
     if(localStorage.getItem('todos') === null){
@@ -54,7 +54,7 @@ function App() {
     <div className="App">
       <header>
     <p>hello</p>
-     <h1>ToDo</h1>
+     
      </header>
      <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus} />
      <TodoList filteredTodos={filteredTodos} setTodos={setTodos} todos={todos}/>
