@@ -43,7 +43,6 @@ function App() {
 
   const  getLocalTodos = () =>{
     if(localStorage.getItem('todos') === null){
-      console.log('hhhhhhhhhhhhhhhhhhiii');
       localStorage.setItem('todos',JSON.stringify([]));
     }else{
       let todoLocal =  JSON.parse(localStorage.getItem('todos'))
